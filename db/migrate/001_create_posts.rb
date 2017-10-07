@@ -1,10 +1,10 @@
-class CreatePosts < ActiveRecord 
-  def change 
+class CreatePosts < ActiveRecord
+  def change
     create_table :posts do |p|
-      p.string :name 
+      p.string :name
       p.string :content
-    end 
-  end 
+    end
+  end
 
-end  
+end
   
